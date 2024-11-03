@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* my custome css */
+.old-scale {
+  scale: 0.9;
+}
+.scale-over:hover {
+  scale: 1;
+}
+
+/* .get-in-touch  */
+@media (max-width: 640px) {
+  .get-in-touch {
+    flex-direction: column;
+    background-color: lightcoral;
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  #page2 {
+    width: 95%;
+  }
+}
