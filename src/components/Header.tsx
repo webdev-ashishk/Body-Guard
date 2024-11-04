@@ -6,9 +6,7 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 import HeaderMenuItems from './HeaderMenuItems';
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
-  // const menuRef = useRef(null);
-  // const [getTheData, setGetTheData] = useState([]);
-  // console.log(getTheData);
+
   return (
     <div className="bg-slate-600 sticky top-0 header w-11/12 m-auto z-50">
       <nav className="flex items-center justify-between" id="nav">
@@ -24,13 +22,6 @@ export default function Header() {
             className="hidden text-2xl font-bold"
             onClick={() => {
               setOpenMenu(!openMenu);
-              // if (menuRef.current) {
-              //   const menuItems =
-              //     menuRef.current.querySelectorAll<HTMLLIElement>('li');
-              //   menuItems.forEach((element) => {
-              //     setGetTheData(element);
-              //   });
-              // }
             }}
           >
             {openMenu ? <IoMdClose /> : <RxHamburgerMenu />}
