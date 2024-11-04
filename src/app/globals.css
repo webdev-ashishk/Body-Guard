@@ -45,4 +45,8 @@ body {
   #menuButton {
     display: block;
   }
+  #nav {
+    height: 50px;
+    margin: 10px;
+  }
 }

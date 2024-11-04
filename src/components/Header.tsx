@@ -1,64 +1,103 @@
 'use client';
 import Link from 'next/link';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import { IoMdClose } from 'react-icons/io';
 import { RxHamburgerMenu } from 'react-icons/rx';
+import HeaderMenuItems from './HeaderMenuItems';
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
-  const menuRef = useRef(null);
-  const [getTheData, setGetTheData] = useState([]);
-
+  // const menuRef = useRef(null);
+  // const [getTheData, setGetTheData] = useState([]);
+  // console.log(getTheData);
   return (
     <div className="bg-slate-600 sticky top-0 header w-11/12 m-auto z-50">
-      <nav className="flex items-center justify-between">
-        <h1 className="ml-10">LOGO</h1>
+      <nav className="flex items-center justify-between" id="nav">
+        <h1 className="ml-10">
+          <Link href="/" className="font-bold text-2xl text-yellow-400">
+            LOGO
+          </Link>
+        </h1>
         <div className="flex items-center mr-10">
-          <ul ref={menuRef} id="menuItems" className="flex gap-6 p-4">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/about">About Us</Link>
-            </li>
-            <li>
-              <Link href="/services">Services</Link>
-            </li>
-            <li>
-              <Link href="/team">Team</Link>
-            </li>
-            <li>
-              <Link href="/testimonials">Testimonials</Link>
-            </li>
-            <li>
-              <Link href="/careers">Careers</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact</Link>
-            </li>
-          </ul>
+          <HeaderMenuItems />
           <ul
             id="menuButton"
             className="hidden text-2xl font-bold"
             onClick={() => {
               setOpenMenu(!openMenu);
-              if (menuRef.current) {
-                const menuItems =
-                  menuRef.current.querySelectorAll<HTMLLIElement>('li');
-                menuItems.forEach((element) => {
-                  setGetTheData(element);
-                });
-              }
+              // if (menuRef.current) {
+              //   const menuItems =
+              //     menuRef.current.querySelectorAll<HTMLLIElement>('li');
+              //   menuItems.forEach((element) => {
+              //     setGetTheData(element);
+              //   });
+              // }
             }}
           >
             {openMenu ? <IoMdClose /> : <RxHamburgerMenu />}
-            <li>{getTheData}</li>
+            {/* <li>{getTheData}</li> */}
           </ul>
         </div>
       </nav>
       {openMenu ? (
-        <h1 className="h-52"> id added {getTheData} </h1>
+        <div className="h-52">
+          <ul className="flex flex-col justify-center items-center ">
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link href="/" className="focus:text-yellow-600 focus:font-bold">
+                Home
+              </Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link
+                href="/about"
+                className="focus:text-yellow-600 focus:font-bold"
+              >
+                About Us
+              </Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link
+                href="/services"
+                className="focus:text-yellow-600 focus:font-bold"
+              >
+                Services
+              </Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link
+                href="/team"
+                className="focus:text-yellow-600 focus:font-bold"
+              >
+                Team
+              </Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link
+                href="/testimonials"
+                className="focus:text-yellow-600 focus:font-bold"
+              >
+                Testimonials
+              </Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link
+                href="/careers"
+                className="focus:text-yellow-600 focus:font-bold"
+              >
+                Careers
+              </Link>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link
+                href="/contact"
+                className="focus:text-yellow-600 focus:font-bold"
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
       ) : (
-        <h1> id removed</h1>
+        <p></p>
       )}
     </div>
   );
