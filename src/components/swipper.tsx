@@ -10,11 +10,11 @@ import 'swiper/css/pagination';
 
 // import required modules
 import Image from 'next/image';
-import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 export default function App() {
   return (
-    <>
+    <div className="z-10">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -25,57 +25,57 @@ export default function App() {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        // navigation={true}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
           <Image
             src="/images/image1.jpeg"
+            className="w-full h-[40rem]"
             width={100}
             height={100}
-            className="w-full h-full"
             alt="Slide 1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src="/images/contactImage.jpg"
+            className="w-full h-[40rem]"
             width={100}
             height={100}
-            className="w-full h-full"
-            alt="Slide 1"
+            alt="Slide 2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src=""
+            className="w-full h-[40rem]"
             width={100}
             height={100}
-            className="w-full h-full"
-            alt="Slide 1"
+            alt="Slide 3"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src=""
+            className="w-full h-[40rem]"
             width={100}
             height={100}
-            className="w-full h-full"
-            alt="Slide 1"
+            alt="Slide 4"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src=""
+            className="w-full h-[40rem]"
             width={100}
             height={100}
-            className="w-full h-full"
-            alt="Slide 1"
+            alt="Slide 5"
           />
         </SwiperSlide>
         {/* Add more slides as needed */}
       </Swiper>
-    </>
+    </div>
   );
 }

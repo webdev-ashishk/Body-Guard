@@ -39,4 +39,10 @@ body {
   #page2 {
     width: 95%;
   }
+  #menuItems {
+    display: none;
+  }
+  #menuButton {
+    display: block;
+  }
 }

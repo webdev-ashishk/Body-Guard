@@ -2,7 +2,7 @@ import SwiperComponent from '@/components/swipper';
 import Image from 'next/image';
 export default function Home() {
   return (
-    <div className="w-10/12 h-[900px] m-auto bg-blue-400">
+    <div className="">
       {/* carousel */}
       <SwiperComponent />
       <h1>Welcome to Body Guard ....</h1>
