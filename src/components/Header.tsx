@@ -1,4 +1,5 @@
 'use client';
+import { fireConfetti } from '@/utils/Confetti';
 import Link from 'next/link';
 import { useState } from 'react';
 import { IoMdClose } from 'react-icons/io';
@@ -7,15 +8,17 @@ import HeaderMenuItems from './HeaderMenuItems';
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
 
+  // Function to trigger confetti animation
+
   return (
-    <div className="bg-slate-600 sticky top-0 header w-11/12 m-auto z-50">
+    <div className="bg-slate-600 top-0 header w-11/12 m-auto sticky z-50">
       <nav className="flex items-center justify-between" id="nav">
-        <h1 className="ml-10">
+        <h1 className="ml-2" onClick={() => fireConfetti()}>
           <Link href="/" className="font-bold text-2xl text-yellow-400">
             LOGO
           </Link>
         </h1>
-        <div className="flex items-center mr-10">
+        <div className="flex items-center mr-2">
           <HeaderMenuItems />
           <ul
             id="menuButton"
@@ -30,7 +33,7 @@ export default function Header() {
         </div>
       </nav>
       {openMenu ? (
-        <div className="h-52">
+        <div className="h-52 absolute z-50 bg-gray-500 w-full top-12">
           <ul className="flex flex-col justify-center items-center ">
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link href="/" className="focus:text-yellow-600 focus:font-bold">
