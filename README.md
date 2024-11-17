@@ -17,3 +17,7 @@ Contact - End with a way to reach out for inquiries or bookings.
           <strong className="text-yellow-600"> ABOUT US</strong>
         </h2>
       </div>
+
+## Take inspiration
+
+> https://poonasecurity.com/about/

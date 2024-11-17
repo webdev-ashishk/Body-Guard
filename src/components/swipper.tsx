@@ -31,16 +31,17 @@ export default function App() {
       >
         <SwiperSlide>
           <Image
-            src="/images/image1.jpeg"
+            src="/images/11.jpg"
             className="w-full h-[40rem]"
             width={100}
             height={100}
             alt="Slide 1"
+            quality={100}
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/images/contactImage.jpg"
+            src="/images/22.jpg"
             className="w-full h-[40rem]"
             width={100}
             height={100}
@@ -49,7 +50,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src=""
+            src="/images/33.webp"
             className="w-full h-[40rem]"
             width={100}
             height={100}
@@ -58,7 +59,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src=""
+            src="/image/44.webp"
             className="w-full h-[40rem]"
             width={100}
             height={100}
@@ -67,7 +68,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src=""
+            src="/image/3.webp"
             className="w-full h-[40rem]"
             width={100}
             height={100}
