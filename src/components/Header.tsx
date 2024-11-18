@@ -13,8 +13,14 @@ export default function Header() {
   return (
     <div className="bg-slate-600 top-0 header w-11/12 m-auto sticky z-50">
       <nav className="flex items-center justify-between" id="nav">
-        <h1 className="ml-2" onClick={() => fireConfetti()}>
-          <Link href="/" className="font-bold text-2xl text-yellow-400">
+        <h1>
+          <Link
+            href="/"
+            className="ml-2 text-2xl font-bold text-yellow-600"
+            onClick={() => {
+              fireConfetti();
+            }}
+          >
             LOGO
           </Link>
         </h1>
