@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
       'cdn.create.vista.com',
       'shutterstock.com',
       'static.vecteezy.com',
+      '5.imimg.com',
+      'denetimservices.com',
+      'www.promansecuritech.com',
     ], // Add this line to allow images from this domain
   },
 };

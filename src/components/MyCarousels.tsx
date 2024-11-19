@@ -10,7 +10,7 @@ function MyCarousels() {
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src="https://static.vecteezy.com/system/resources/thumbnails/028/627/212/small_2x/photorealistic-panoramic-view-of-the-beautiful-natural-landscape-on-the-edge-of-the-lake-in-the-forest-created-with-ai-generative-free-photo.jpg"
+          src="https://www.promansecuritech.com/wp-content/uploads/2019/05/bouncer-services.jpg"
           alt="First slide"
           width={800}
           height={400}
@@ -24,7 +24,7 @@ function MyCarousels() {
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src="https://static.vecteezy.com/system/resources/thumbnails/028/627/212/small_2x/photorealistic-panoramic-view-of-the-beautiful-natural-landscape-on-the-edge-of-the-lake-in-the-forest-created-with-ai-generative-free-photo.jpg"
+          src="https://5.imimg.com/data5/VT/RC/ZD/SELLER-2174304/bouncer-uniform-1000x1000.jpg"
           alt="Second slide"
           width={800}
           height={400}
@@ -38,7 +38,7 @@ function MyCarousels() {
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src="https://static.vecteezy.com/system/resources/thumbnails/028/627/212/small_2x/photorealistic-panoramic-view-of-the-beautiful-natural-landscape-on-the-edge-of-the-lake-in-the-forest-created-with-ai-generative-free-photo.jpg"
+          src="https://denetimservices.com/wp-content/uploads/2022/03/Bouncer-Bodyguard-Hire-for-event-security-Mumbai.jpg"
           alt="Third slide"
           width={800}
           height={100}
