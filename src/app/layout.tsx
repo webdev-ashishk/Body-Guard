@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';

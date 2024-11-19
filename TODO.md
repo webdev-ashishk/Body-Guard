@@ -1,3 +1,7 @@
-# make your link active color in NavBar
+# make your link active color in NavBar ✅
 
-# Please write Home Page .
+# integrate the carousel ?
+
+- using react-bootstrap carousels
+
+# Please write Home Page ?

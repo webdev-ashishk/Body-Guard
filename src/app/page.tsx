@@ -1,11 +1,10 @@
-import ReactSlickCarousel from '@/components/ReactSlickCarousel';
+import MyCarousels from '@/components/MyCarousels';
 import Image from 'next/image';
 export default function Home() {
   return (
-    <div className="">
+    <div>
       {/* carousel */}
-      {/* <SwiperComponent /> */}
-      <ReactSlickCarousel />
+      <MyCarousels />
       <h1>Welcome to Body Guard ....</h1>
       {/* three image */}
       <div
