@@ -2,5 +2,6 @@
 
 # integrate the carousel ? ✅
 
+# Add light and dark mode ? ✅
 
-# Please write Home Page ?
+# write Home Page ?
