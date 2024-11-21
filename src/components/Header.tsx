@@ -42,7 +42,13 @@ export default function Header() {
         <div className="h-52 absolute z-50 bg-gray-500 w-full top-12">
           <ul className="flex flex-col justify-center items-center ">
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link href="/" className="focus:text-yellow-600 focus:font-bold">
+              <Link
+                href="/"
+                className="focus:text-yellow-600 focus:font-bold"
+                onClick={() => {
+                  fireConfetti();
+                }}
+              >
                 Home
               </Link>
             </li>

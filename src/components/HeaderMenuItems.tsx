@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { ModeToggle } from './ModeToggle';
 export default function HeaderMenuItems() {
   const currentPath = usePathname();
   const activeLink = 'text-yellow-600';
@@ -64,6 +65,9 @@ export default function HeaderMenuItems() {
           >
             Contact
           </Link>
+        </li>
+        <li>
+          <ModeToggle />
         </li>
       </ul>
     </div>
