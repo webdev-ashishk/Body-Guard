@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Careers = () => {
   return (
     <div>
-      <div className="page1 p-16 bg-customGray text-white flex justify-around items-center">
+      <div className="page1 p-16 bg-customGray text-white flex justify-around items-center currentPageOne">
         <h1 className="text-2xl">CAREERS</h1>
         <h2>
           <Link href="/">HOME</Link> /

@@ -5,7 +5,7 @@ const AboutUs = () => {
     <div>
       <div
         id="page1"
-        className="p-16 bg-customGray text-white flex justify-around items-center"
+        className="p-16 bg-customGray text-white flex justify-around items-center currentPageOne"
       >
         <h1 className="text-2xl">ABOUT US</h1>
         <h2>

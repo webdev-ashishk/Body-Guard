@@ -35,6 +35,11 @@ body {
     height: 50px;
     margin: 10px;
   }
+  .currentPageOne {
+    /* background-color: red; */
+    flex-direction: column;
+    column-gap: 40px;
+  }
 }
 @layer base {
   :root {

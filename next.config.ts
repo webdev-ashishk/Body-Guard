@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
       '5.imimg.com',
       'denetimservices.com',
       'www.promansecuritech.com',
+      'sspatnabouncer.com',
     ], // Add this line to allow images from this domain
   },
 };

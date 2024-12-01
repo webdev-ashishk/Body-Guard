@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <div className="page1">
-        <div className="p-16 bg-customGray text-white flex justify-around items-center">
+        <div className="p-16 bg-customGray text-white flex justify-around items-center currentPageOne">
           <h1 className="text-2xl">CONTACT</h1>
           <h2>
             <Link href="/">HOME</Link> /

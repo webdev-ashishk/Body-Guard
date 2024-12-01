@@ -5,7 +5,7 @@ import Team2 from './Team2';
 const Team = () => {
   return (
     <div className="caret-white">
-      <div className="page1 p-16 bg-customGray text-white flex justify-around items-center">
+      <div className="page1 p-16 bg-customGray text-white flex justify-around items-center currentPageOne">
         <h1 className="text-2xl">TEAM</h1>
         <h2>
           <Link href="/" className="cursor-pointer">
