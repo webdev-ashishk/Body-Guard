@@ -40,6 +40,10 @@ body {
     flex-direction: column;
     column-gap: 40px;
   }
+  .getInTouch {
+    width: fit-content;
+    margin: 20px;
+  }
 }
 @layer base {
   :root {
@@ -103,4 +107,16 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+#mobileHeader > ul {
+  display: block;
+  height: 210px;
+  text-align: center;
+  background-image: url('../../public/images/navbarBackground.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#mobileHeader > ul > li:hover {
+  background-color: #916303;
 }

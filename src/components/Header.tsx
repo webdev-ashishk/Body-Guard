@@ -9,6 +9,10 @@ export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
 
   // Function to trigger confetti animation
+  // TODO WRITING FUNCTION FOR TOGGLE MENU
+  // function toggleMenu(){
+
+  // }
 
   return (
     <div className="bg-slate-600 top-0 header w-11/12 m-auto sticky z-50">
@@ -39,12 +43,15 @@ export default function Header() {
         </div>
       </nav>
       {openMenu ? (
-        <div className="h-52 absolute z-50 bg-gray-500 w-full top-12">
+        <div
+          className="h-52 absolute z-50 bg-gray-500 w-full top-12"
+          id="mobileHeader"
+        >
           <ul className="flex flex-col justify-center items-center ">
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
                 href="/"
-                className="focus:text-yellow-600 focus:font-bold"
+                className="focus:text-yellow-600 focus:font-bold block"
                 onClick={() => {
                   fireConfetti();
                 }}
@@ -55,7 +62,7 @@ export default function Header() {
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
                 href="/about"
-                className="focus:text-yellow-600 focus:font-bold"
+                className="focus:text-yellow-600 focus:font-bold block"
               >
                 About Us
               </Link>
@@ -63,7 +70,7 @@ export default function Header() {
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
                 href="/services"
-                className="focus:text-yellow-600 focus:font-bold"
+                className="focus:text-yellow-600 focus:font-bold block"
               >
                 Services
               </Link>
@@ -71,7 +78,7 @@ export default function Header() {
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
                 href="/team"
-                className="focus:text-yellow-600 focus:font-bold"
+                className="focus:text-yellow-600 focus:font-bold block"
               >
                 Team
               </Link>
@@ -79,7 +86,7 @@ export default function Header() {
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
                 href="/testimonials"
-                className="focus:text-yellow-600 focus:font-bold"
+                className="focus:text-yellow-600 focus:font-bold block"
               >
                 Testimonials
               </Link>
@@ -87,7 +94,7 @@ export default function Header() {
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
                 href="/careers"
-                className="focus:text-yellow-600 focus:font-bold"
+                className="focus:text-yellow-600 focus:font-bold block"
               >
                 Careers
               </Link>
@@ -95,7 +102,7 @@ export default function Header() {
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
                 href="/contact"
-                className="focus:text-yellow-600 focus:font-bold"
+                className="focus:text-yellow-600 focus:font-bold block"
               >
                 Contact
               </Link>
