@@ -46,7 +46,7 @@ const Team2 = () => {
               width={600}
               height={100}
               alt="image"
-              className="m-auto"
+              className="m-auto rounded-lg"
             />
             <h3>{member.name}</h3>
             <p className="title text-center">{member.title}</p>

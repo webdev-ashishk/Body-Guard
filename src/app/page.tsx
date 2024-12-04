@@ -22,11 +22,11 @@ export default function Home() {
           );
         })}
       </div>
-      <div className="page3 w-11/12 flex flex-wrap justify-center m-auto border-2 border-green-600">
-        <div className="image w-[520px] border-2 border-white">
+      <div className="page3 w-11/12  grid grid-cols-1 md:grid-cols-2 m-auto">
+        <div className="image  border-2 border-white">
           <Image src={welcomeImage} alt="welcome" />
         </div>
-        <div className="text  bg-blue-500 w-[520px] ">
+        <div className="text  bg-blue-500 ">
           <h1 className="text-2xl font-bold text-center">Welcome to Bouncer</h1>
           <p className="px-4 mt-2">
             We, SS PATNA BOUNCER are incepted in 2019. Since the first day of

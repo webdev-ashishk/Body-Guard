@@ -1,15 +1,17 @@
 'use client';
 import { fireConfetti } from '@/utils/Confetti';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { IoMdClose } from 'react-icons/io';
 import { RxHamburgerMenu } from 'react-icons/rx';
+import logo from '../../public/images/logo.png';
 import HeaderMenuItems from './HeaderMenuItems';
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
 
   // Function to trigger confetti animation
-  // TODO WRITING FUNCTION FOR TOGGLE MENU
+  // TODO WRITING FUNCTION FOR TOGGLE MENU , line number 36,51 ......
   // function toggleMenu(){
 
   // }
@@ -17,22 +19,23 @@ export default function Header() {
   return (
     <div className="bg-slate-600 top-0 header w-11/12 m-auto sticky z-50">
       <nav className="flex items-center justify-between" id="nav">
-        <h1>
+        <h1 className="w-[9%] flex justify-center items-center">
           <Link
             href="/"
-            className="ml-2 text-2xl font-bold text-yellow-600"
+            className="ml-10 text-2xl font-bold text-yellow-600"
             onClick={() => {
               fireConfetti();
             }}
           >
-            LOGO
+            <Image src={logo} alt="logo" id="logo" className="" />
+            <b className="text-3xl text-orange-500 hidden" id="logoText">RBG</b>
           </Link>
         </h1>
         <div className="flex items-center mr-2">
           <HeaderMenuItems />
           <ul
             id="menuButton"
-            className="hidden text-2xl font-bold"
+            className={`hidden text-2xl font-extrabold text-orange-400`}
             onClick={() => {
               setOpenMenu(!openMenu);
             }}
