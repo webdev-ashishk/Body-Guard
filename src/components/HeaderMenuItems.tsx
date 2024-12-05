@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { FaPhoneAlt } from 'react-icons/fa';
 import { ModeToggle } from './ModeToggle';
 export default function HeaderMenuItems() {
   const currentPath = usePathname();
@@ -66,7 +67,14 @@ export default function HeaderMenuItems() {
             Contact
           </Link>
         </li>
+        <li className="rounded-2xl border-2 border-white" id="contactRBG">
+          <div className="flex justify-between items-center text-orange-500">
+            <FaPhoneAlt />
+            <li className="ml-2 font-extrabold text-2xl">6299-7140-89</li>
+          </div>
+        </li>
         <li>
+          {/* dark and light theme  */}
           <ModeToggle />
         </li>
       </ul>
