@@ -3,12 +3,12 @@ import { usePathname } from 'next/navigation';
 import { ModeToggle } from './ModeToggle';
 export default function HeaderMenuItems() {
   const currentPath = usePathname();
-  const activeLink = `bg-[#8a4319] p-[0.75rem] rounded-lg text-semibold`;
+  const activeLink = `bg-[#8a4319] p-[10px] rounded-lg`;
   const nonActiveLink = 'text-white';
   return (
     <div>
       <ul id="menuItems" className="flex items-center gap-6 p-4">
-        <li className="p-[0.75rem]">
+        <li className="">
           <Link
             href="/"
             className={currentPath === '/' ? activeLink : nonActiveLink}

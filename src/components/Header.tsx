@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { IoMdClose } from 'react-icons/io';
 import { RxHamburgerMenu } from 'react-icons/rx';
+import afterLogoText from '../../public/images/afterLogoText.png';
 import logo from '../../public/images/logo.png';
 import HeaderMenuItems from './HeaderMenuItems';
 export default function Header() {
@@ -28,7 +29,17 @@ export default function Header() {
             }}
           >
             <Image src={logo} alt="logo" id="logo" className="" />
-            <b className="text-3xl text-orange-500 hidden" id="logoText">RBG</b>
+            <span className="flex items-center">
+              <Image
+                src={afterLogoText}
+                alt="afterLogoText"
+                className="hidden"
+                id="imageAfterLogoText"
+              />
+              <b className="text-3xl text-orange-500 hidden" id="logoText">
+                RBG
+              </b>
+            </span>
           </Link>
         </h1>
         <div className="flex items-center mr-2">
