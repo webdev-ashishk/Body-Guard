@@ -10,7 +10,7 @@ const Careers = () => {
           <strong className="text-yellow-600"> CAREERS</strong>
         </h2>
       </div>
-      <div className="page2 w-8/12 m-auto p-16">
+      <div className="page2 w-full md:w-8/12 m-auto md:p-16 p-3">
         <h1 className="text-2xl font-bold text-yellow-600">
           Careers At [YOUR COMPANY NAME]
         </h1>
