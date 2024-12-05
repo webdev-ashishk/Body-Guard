@@ -4,7 +4,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { ModeToggle } from './ModeToggle';
 export default function HeaderMenuItems() {
   const currentPath = usePathname();
-  const activeLink = `bg-[#8a4319] p-[10px] rounded-lg`;
+  const activeLink = `bg-[#8a4319] p-[10px] rounded-2xl`;
   const nonActiveLink = 'text-white';
   return (
     <div>

@@ -136,7 +136,7 @@ body {
 
 #menuItems li:hover {
   background-color: gray;
-  border-radius: 5px;
+  border-radius: 1rem;
 }
 #menuItems > li {
   padding: 10px;
