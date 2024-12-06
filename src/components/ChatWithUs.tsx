@@ -5,7 +5,7 @@ export default function ChatWithUs() {
   function handleOpenWhatsapp() {
     console.log('whatsapp opened!');
     const phoneNumber = '7905101205';
-    const url = `whatsapp://send?phone=${phoneNumber}&text=`;
+    const url = `whatsapp://send?phone=${phoneNumber}&text=${'hi'}`;
 
     window.location.href = url;
   }
