@@ -68,9 +68,9 @@ export default function HeaderMenuItems() {
           </Link>
         </li>
         <li className="rounded-2xl border-2 border-white" id="contactRBG">
-          <div className="flex justify-between items-center text-orange-500">
+          <div className="flex justify-between items-center text-orange-500 ">
             <FaPhoneAlt />
-            <p className="ml-2 font-extrabold text-2xl">6299-7140-89</p>
+            <p className="ml-2 font-extrabold text-2xl">8789-0333-03</p>
           </div>
         </li>
         <li>

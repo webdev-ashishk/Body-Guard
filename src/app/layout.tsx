@@ -1,6 +1,6 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import ScrollToTop from '@/components/ScrollToTop';
+import ChatWithUs from '@/components/ChatWithUs';
 import { ThemeProvider } from '@/components/theme-provider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import type { Metadata } from 'next';
@@ -28,7 +28,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
     <html lang="en">
       <body
@@ -41,7 +40,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="scrollToTop" id="scrollToTop">
-            <ScrollToTop />{' '}
+            <ChatWithUs />
           </div>
           <Header />
           {children}
