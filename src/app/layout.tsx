@@ -1,6 +1,7 @@
+import ChatWithUs from '@/components/ChatWithUs';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import ChatWithUs from '@/components/ChatWithUs';
+import Offers from '@/components/Offers';
 import { ThemeProvider } from '@/components/theme-provider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import type { Metadata } from 'next';
@@ -31,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#1d232a]`}
       >
         <ThemeProvider
           attribute="class"
@@ -42,6 +43,7 @@ export default function RootLayout({
           <div className="scrollToTop" id="scrollToTop">
             <ChatWithUs />
           </div>
+          <Offers />
           <Header />
           {children}
           <Footer />

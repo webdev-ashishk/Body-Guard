@@ -18,7 +18,7 @@ export default function Header() {
   // }
 
   return (
-    <div className="bg-slate-600 top-0 header w-11/12 m-auto sticky z-50">
+    <div className="border-b-2 border-b-[#7a8999] bg-[#2a323c] top-0 header w-full m-auto sticky z-50">
       <nav className="flex items-center justify-between" id="nav">
         <h1 className="w-[9%] flex justify-center items-center">
           <Link

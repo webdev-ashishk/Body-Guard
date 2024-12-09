@@ -127,17 +127,17 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-#mobileHeader > ul > li:hover {
+/* #mobileHeader > ul > li:hover {
   background-color: #8a4319;
-}
+} */
 #mobileHeader > ul {
   line-height: 30px;
 }
 
-#menuItems li:hover {
+/* #menuItems li:hover {
   background-color: gray;
   border-radius: 1rem;
-}
+} */
 #menuItems > li {
   padding: 10px;
   display: block;
@@ -151,7 +151,4 @@ body {
   bottom: 4rem;
   right: 1rem;
   /* left: 500; */
-}
-#contactRBG:hover {
-  background-color: red;
 }
