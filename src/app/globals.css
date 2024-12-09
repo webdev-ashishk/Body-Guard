@@ -134,8 +134,8 @@ body {
   line-height: 30px;
 }
 
-/* #menuItems li:hover {
-  background-color: gray;
+/* #menuItems > li:hover {
+  color: black;
   border-radius: 1rem;
 } */
 #menuItems > li {

@@ -35,6 +35,14 @@ export default function HeaderMenuItems() {
         </li>
         <li>
           <Link
+            href="/payNow"
+            className={currentPath === '/payNow' ? activeLink : nonActiveLink}
+          >
+            Pay Now
+          </Link>
+        </li>
+        <li>
+          <Link
             href="/team"
             className={currentPath === '/team' ? activeLink : nonActiveLink}
           >
