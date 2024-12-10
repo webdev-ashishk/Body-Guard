@@ -4,7 +4,7 @@ import { FaPhoneAlt } from 'react-icons/fa';
 import { ModeToggle } from './ModeToggle';
 export default function HeaderMenuItems() {
   const currentPath = usePathname();
-  const activeLink = `bg-[#8a4319] px-[1.25rem] py-[0.8rem] rounded-2xl`;
+  const activeLink = `bg-[#8a4319] px-[1.25rem] py-[0.8rem] rounded-full font-bold`;
   const nonActiveLink = 'text-white';
   return (
     <div>
@@ -75,7 +75,7 @@ export default function HeaderMenuItems() {
             Contact
           </Link>
         </li>
-        <li className="rounded-2xl border-2 border-white" id="contactRBG">
+        <li className="rounded-full border-2 border-white" id="contactRBG">
           <div className="flex justify-between items-center text-orange-500 ">
             <FaPhoneAlt />
             <p className="ml-2 font-extrabold text-2xl">8789-0333-03</p>
