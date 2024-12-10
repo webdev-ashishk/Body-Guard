@@ -6,6 +6,14 @@ export default function HeaderMenuItems() {
   const currentPath = usePathname();
   const activeLink = `bg-[#8a4319] px-[1.25rem] py-[0.8rem] rounded-full font-bold`;
   const nonActiveLink = 'text-white';
+  const handleHover = () => {
+    const aboutUS = document.getElementById('dropDown');
+    aboutUS!.style.display = 'block';
+  };
+  const handleMouseOut = () => {
+    const aboutUS = document.getElementById('dropDown');
+    aboutUS!.style.display = 'none';
+  };
   return (
     <div>
       <ul id="menuItems" className="flex items-center gap-6 p-4">
@@ -17,14 +25,55 @@ export default function HeaderMenuItems() {
             Home
           </Link>
         </li>
-        <li>
-          <Link
+
+        <li
+          className={``}
+          id="aboutUsMenuItems"
+          onMouseOver={handleHover}
+          onMouseLeave={handleMouseOut}
+        >
+          {/* <Link
             href="/about"
             className={currentPath === '/about' ? activeLink : nonActiveLink}
           >
-            About Us
-          </Link>
+            About US
+          </Link> */}
+          About US
+          <ul
+            className="absolute bg-[#2a323c] pl-2 py-2 my-2 hidden cursor-pointer text-left"
+            id="dropDown"
+          >
+            <li>
+              <Link
+                href="/team"
+                className={currentPath === '/team' ? activeLink : nonActiveLink}
+              >
+                Team
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/testimonials"
+                className={
+                  currentPath === '/testimonials' ? activeLink : nonActiveLink
+                }
+              >
+                Testimonials
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/careers"
+                className={
+                  currentPath === '/careers' ? activeLink : nonActiveLink
+                }
+              >
+                Careers
+              </Link>
+            </li>
+          </ul>
         </li>
+
         <li>
           <Link
             href="/services"
@@ -39,32 +88,6 @@ export default function HeaderMenuItems() {
             className={currentPath === '/payNow' ? activeLink : nonActiveLink}
           >
             Pay Now
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/team"
-            className={currentPath === '/team' ? activeLink : nonActiveLink}
-          >
-            Team
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/testimonials"
-            className={
-              currentPath === '/testimonials' ? activeLink : nonActiveLink
-            }
-          >
-            Testimonials
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/careers"
-            className={currentPath === '/careers' ? activeLink : nonActiveLink}
-          >
-            Careers
           </Link>
         </li>
         <li>

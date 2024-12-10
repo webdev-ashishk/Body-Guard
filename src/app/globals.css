@@ -152,3 +152,10 @@ body {
   right: 1rem;
   /* left: 500; */
 }
+#dropDown {
+  border: 1px solid gray;
+  border-radius: 8%;
+}
+#dropDown li {
+  margin: 10px 0px;
+}
