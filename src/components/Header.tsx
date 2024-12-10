@@ -3,6 +3,7 @@ import { fireConfetti } from '@/utils/Confetti';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import { FaPhoneAlt } from 'react-icons/fa';
 import { IoMdClose } from 'react-icons/io';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import afterLogoText from '../../public/images/afterLogoText.png';
@@ -42,26 +43,26 @@ export default function Header() {
             </span>
           </Link>
         </h1>
-        <div className="flex items-center mr-2">
+        <div className="flex items-center">
           <HeaderMenuItems />
           <ul
             id="menuButton"
-            className={`hidden text-2xl font-extrabold text-orange-400`}
+            className={`hidden text-3xl font-extrabold mr-8 text-orange-400`}
             onClick={() => {
               setOpenMenu(!openMenu);
             }}
           >
-            {openMenu ? <IoMdClose /> : <RxHamburgerMenu />}
+            {openMenu ? <IoMdClose /> : <RxHamburgerMenu className="" />}
             {/* <li>{getTheData}</li> */}
           </ul>
         </div>
       </nav>
-      {openMenu ? (
+      {openMenu && (
         <div
-          className="h-52 absolute z-50 bg-gray-500 w-full top-12"
+          className="h-64 absolute z-50 bg-gray-500 w-full"
           id="mobileHeader"
         >
-          <ul className="flex flex-col justify-center items-center ">
+          <ul className="flex flex-col justify-center items-center text-white ">
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
                 href="/"
@@ -88,6 +89,14 @@ export default function Header() {
               >
                 Services
               </Link>
+              <li onClick={() => setOpenMenu(!openMenu)}>
+                <Link
+                  href="/payNow"
+                  className="focus:text-yellow-600 focus:font-bold block"
+                >
+                  Pay Now
+                </Link>
+              </li>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
@@ -121,10 +130,14 @@ export default function Header() {
                 Contact
               </Link>
             </li>
+            <li className="rounded-full border-2 border-white" id="contactRBG">
+              <div className="flex justify-center items-center text-orange-500 bg-[#2a323c] rounded-full ">
+                <FaPhoneAlt />
+                <p className="ml-2 font-extrabold text-2xl">8789-0333-03</p>
+              </div>
+            </li>
           </ul>
         </div>
-      ) : (
-        <p></p>
       )}
     </div>
   );

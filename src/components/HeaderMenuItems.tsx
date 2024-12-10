@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FaPhoneAlt } from 'react-icons/fa';
-import { ModeToggle } from './ModeToggle';
+import { IoMdArrowDropdown } from 'react-icons/io';
 export default function HeaderMenuItems() {
   const currentPath = usePathname();
-  const activeLink = `bg-[#8a4319] px-[1.25rem] py-[0.8rem] rounded-full font-bold`;
+  const activeLink = `bg-[#8a4319] px-[1.25rem] py-[0.8rem] rounded-full font-bold text-white`;
   const nonActiveLink = 'text-white';
   const handleHover = () => {
     const aboutUS = document.getElementById('dropDown');
@@ -14,6 +14,9 @@ export default function HeaderMenuItems() {
     const aboutUS = document.getElementById('dropDown');
     aboutUS!.style.display = 'none';
   };
+  //TODO PUTS DropDown icons , using w3schools
+  // TODO how we can use char , decimal , hex in jsx .
+  // TODO how we can remove document.getelement ... and instead of use ref to solve this problems
   return (
     <div>
       <ul id="menuItems" className="flex items-center gap-6 p-4">
@@ -27,20 +30,17 @@ export default function HeaderMenuItems() {
         </li>
 
         <li
-          className={``}
+          className="text-white"
           id="aboutUsMenuItems"
           onMouseOver={handleHover}
           onMouseLeave={handleMouseOut}
         >
-          {/* <Link
-            href="/about"
-            className={currentPath === '/about' ? activeLink : nonActiveLink}
-          >
-            About US
-          </Link> */}
-          About US
+          <div className="inline-block">About US</div>
+          <div className="inline-block ml-2 font-bold align-middle">
+            <IoMdArrowDropdown />
+          </div>
           <ul
-            className="absolute bg-[#2a323c] pl-2 py-2 my-2 hidden cursor-pointer text-left"
+            className="absolute w-40 bg-[#2a323c] pl-2 py-2 my-2 hidden cursor-pointer text-center"
             id="dropDown"
           >
             <li>
@@ -103,10 +103,6 @@ export default function HeaderMenuItems() {
             <FaPhoneAlt />
             <p className="ml-2 font-extrabold text-2xl">8789-0333-03</p>
           </div>
-        </li>
-        <li>
-          {/* dark and light theme  */}
-          <ModeToggle />
         </li>
       </ul>
     </div>
