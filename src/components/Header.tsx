@@ -89,14 +89,14 @@ export default function Header() {
               >
                 Services
               </Link>
-              <li onClick={() => setOpenMenu(!openMenu)}>
-                <Link
-                  href="/payNow"
-                  className="focus:text-yellow-600 focus:font-bold block"
-                >
-                  Pay Now
-                </Link>
-              </li>
+            </li>
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link
+                href="/payNow"
+                className="focus:text-yellow-600 focus:font-bold block"
+              >
+                Pay Now
+              </Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link

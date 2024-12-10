@@ -128,14 +128,17 @@ body {
   height: 210px;
   text-align: center;
   /* background-image: url('../../public/images/navbarBackground.png'); */
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  /* background-repeat: no-repeat; */
 }
 /* #mobileHeader > ul > li:hover {
   background-color: #8a4319;
 } */
 #mobileHeader > ul {
   line-height: 30px;
+}
+#mobileHeader ul li:hover {
+  background-color: #f97316;
 }
 
 /* #menuItems > li:hover {
