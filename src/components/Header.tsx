@@ -19,7 +19,7 @@ export default function Header() {
   // }
 
   return (
-    <div className="border-b-2 border-b-[#7a8999] bg-[#2a323c] top-0 header w-full m-auto sticky z-50">
+    <div className="w-full md:w-11/12 m-auto">
       <nav className="flex items-center justify-between" id="nav">
         <h1 className="w-[9%] flex justify-center items-center">
           <Link
@@ -66,7 +66,6 @@ export default function Header() {
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link
                 href="/"
-                className="focus:text-yellow-600 focus:font-bold block"
                 onClick={() => {
                   fireConfetti();
                 }}
@@ -75,60 +74,25 @@ export default function Header() {
               </Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link
-                href="/about"
-                className="focus:text-yellow-600 focus:font-bold block"
-              >
-                About Us
-              </Link>
+              <Link href="/about">About Us</Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link
-                href="/services"
-                className="focus:text-yellow-600 focus:font-bold block"
-              >
-                Services
-              </Link>
+              <Link href="/services">Services</Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link
-                href="/payNow"
-                className="focus:text-yellow-600 focus:font-bold block"
-              >
-                Pay Now
-              </Link>
+              <Link href="/payNow">Pay Now</Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link
-                href="/team"
-                className="focus:text-yellow-600 focus:font-bold block"
-              >
-                Team
-              </Link>
+              <Link href="/team">Team</Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link
-                href="/testimonials"
-                className="focus:text-yellow-600 focus:font-bold block"
-              >
-                Testimonials
-              </Link>
+              <Link href="/testimonials">Testimonials</Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link
-                href="/careers"
-                className="focus:text-yellow-600 focus:font-bold block"
-              >
-                Careers
-              </Link>
+              <Link href="/careers">Careers</Link>
             </li>
             <li onClick={() => setOpenMenu(!openMenu)}>
-              <Link
-                href="/contact"
-                className="focus:text-yellow-600 focus:font-bold block"
-              >
-                Contact
-              </Link>
+              <Link href="/contact">Contact</Link>
             </li>
             <li className="rounded-full border-2 border-white" id="contactRBG">
               <div className="flex justify-center items-center text-orange-500 bg-[#2a323c] rounded-full ">

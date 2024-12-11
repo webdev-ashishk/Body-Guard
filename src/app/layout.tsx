@@ -37,7 +37,9 @@ export default function RootLayout({
           <ChatWithUs />
         </div>
         <Offers />
-        <Header />
+        <div className="w-full m-auto sticky top-0  bg-[#2a323c]">
+          <Header />
+        </div>
         {children}
         <Footer />
       </body>
