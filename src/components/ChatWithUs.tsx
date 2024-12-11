@@ -10,13 +10,11 @@ export default function ChatWithUs() {
   }
   return (
     <div
-      className="bg-red-300 px-3 py-2 m-2 font-extrabold rounded-2xl flex items-center justify-center"
+      className="text-white border-2 bg-[#8a4319] px-3 py-2 m-2 font-extrabold rounded-full"
       onClick={handleOpenWhatsapp}
     >
-      <div className="bg-green-500 rounded-lg">
-        <ImWhatsapp />
-      </div>
-      <button className="ml-1">Chat With Us</button>
+      <ImWhatsapp className="align-middle inline-block bg-green-500 rounded-full" />
+      <button className="ml-2 align-middle inline-block">Chat With Us</button>
     </div>
   );
 }
