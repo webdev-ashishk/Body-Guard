@@ -36,8 +36,10 @@ export default function RootLayout({
         <div className="scrollToTop" id="scrollToTop">
           <ChatWithUs />
         </div>
-        <Offers />
-        <div className="w-full m-auto sticky top-0  bg-[#2a323c]">
+        <div className="w-full m-auto bg-[#cbd2a4]">
+          <Offers />
+        </div>
+        <div className="w-full m-auto sticky top-0  bg-[#2a323c] shadow-2xl">
           <Header />
         </div>
         {children}

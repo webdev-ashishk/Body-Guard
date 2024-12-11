@@ -21,11 +21,6 @@ const Contact = () => {
       >
         Content here
       </div>
-      <div className="page2 mt-12 text-gray-700">
-        <p>📍 Address: 1234 Security Lane, Suite 100, City, State, Zip</p>
-        <p>📞 Phone: (123) 456-7890</p>
-        <p>✉️ Email: info@yourcompany.com</p>
-      </div>
     </>
   );
 };

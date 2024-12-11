@@ -1,0 +1,74 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What types of security services do you provide?",
+      "answer": "We offer a wide range of security services, including personal protection, event security, executive protection, and risk assessment. Our services are customizable to meet your specific needs."
+    },
+    {
+      "id": 2,
+      "question": "Are your bodyguards trained professionals?",
+      "answer": "Yes, all our bodyguards are licensed and highly trained professionals with extensive experience in security protocols, conflict management, and emergency response."
+    },
+    {
+      "id": 3,
+      "question": "How do I hire a bodyguard or security team?",
+      "answer": "You can contact us via our Contact Page or call us directly. Our team will discuss your requirements and recommend the best security solutions for you."
+    },
+    {
+      "id": 4,
+      "question": "What are your charges for security services?",
+      "answer": "Our pricing depends on the type and duration of the service you need. For a detailed quote, please get in touch with us, and we will provide a customized pricing plan."
+    },
+    {
+      "id": 5,
+      "question": "Can I request a female bodyguard?",
+      "answer": "Yes, we have trained female bodyguards available for personal protection and other security needs. Let us know your preference when you contact us."
+    },
+    {
+      "id": 6,
+      "question": "What areas do you serve?",
+      "answer": "We primarily serve your city/region and its surrounding areas, but we can also provide services nationwide based on the requirements."
+    },
+    {
+      "id": 7,
+      "question": "Do you provide security for events?",
+      "answer": "Absolutely! We specialize in event security, including crowd management, access control, and emergency preparedness for small gatherings, corporate events, and large public events."
+    },
+    {
+      "id": 8,
+      "question": "Can I book security services for a short-term event?",
+      "answer": "Yes, we offer flexible short-term and long-term contracts to accommodate your needs, whether it’s a one-day event or an extended assignment."
+    },
+    {
+      "id": 9,
+      "question": "How do you ensure confidentiality?",
+      "answer": "We take confidentiality very seriously. Our team follows strict privacy protocols to protect our clients' personal and professional information."
+    },
+    {
+      "id": 10,
+      "question": "What happens in case of an emergency during your service?",
+      "answer": "Our team is trained to handle emergencies efficiently. We create a detailed security plan, conduct risk assessments, and are prepared to act swiftly to ensure your safety."
+    },
+    {
+      "id": 11,
+      "question": "Do I need security if I already have CCTV and alarms?",
+      "answer": "While CCTV and alarms are excellent security tools, they cannot prevent or respond to immediate threats. Hiring professional security ensures proactive and real-time protection."
+    },
+    {
+      "id": 12,
+      "question": "How far in advance should I book your services?",
+      "answer": "For the best experience, we recommend booking as early as possible. However, we do our best to accommodate last-minute requests depending on availability."
+    },
+    {
+      "id": 13,
+      "question": "What should I look for when hiring security services?",
+      "answer": "Look for experience, licensing, training, and customer reviews. Our team is fully certified and has a proven track record of reliability and professionalism."
+    },
+    {
+      "id": 14,
+      "question": "Can I customize the services to meet my specific needs?",
+      "answer": "Yes, we work closely with clients to understand their requirements and design tailored security solutions."
+    }
+  ]
+}

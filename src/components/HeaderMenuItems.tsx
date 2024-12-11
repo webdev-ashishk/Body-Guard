@@ -5,7 +5,7 @@ import { IoMdArrowDropdown } from 'react-icons/io';
 export default function HeaderMenuItems() {
   const currentPath = usePathname();
   const activeLink = `bg-[#8a4319] px-[1.25rem] py-[0.8rem] rounded-full font-bold text-white`;
-  const nonActiveLink = 'text-white';
+  const nonActiveLink = `text-white hover:text-blue-600`;
   const handleHover = () => {
     const aboutUS = document.getElementById('dropDown');
     aboutUS!.style.display = 'block';
@@ -14,9 +14,8 @@ export default function HeaderMenuItems() {
     const aboutUS = document.getElementById('dropDown');
     aboutUS!.style.display = 'none';
   };
-  //TODO PUTS DropDown icons , using w3schools
-  // TODO how we can use char , decimal , hex in jsx .
   // TODO how we can remove document.getelement ... and instead of use ref to solve this problems
+  // desktop Header
   return (
     <div>
       <ul id="menuItems" className="flex items-center gap-6 p-4">
@@ -98,10 +97,15 @@ export default function HeaderMenuItems() {
             Contact
           </Link>
         </li>
-        <li className="rounded-full border-2 border-white" id="contactRBG">
-          <div className="flex justify-between items-center text-orange-500 ">
+        <li
+          className="rounded-full border-2 border-[#ff914d] text-[#ff914d]"
+          id="contactRBG"
+        >
+          <div className="flex justify-between items-center">
             <FaPhoneAlt />
-            <p className="ml-2 font-extrabold text-2xl">8789-0333-03</p>
+            <p className="ml-2 font-extrabold text-1xl md:text-[1.2rem]">
+              8789-0333-03
+            </p>
           </div>
         </li>
       </ul>

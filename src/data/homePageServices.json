@@ -1,0 +1,33 @@
+[
+  {
+    "id": 100,
+    "serviceImage": "image uri",
+    "serviceName": "Event Security: ",
+    "serviceDescription": "We provide event security services for any occasion, including corporate events, concerts, festivals, weddings, and private parties. Our team of expert bouncers is trained to handle any situation and ensure the safety of your guests and property."
+  },
+  {
+    "id": 200,
+    "serviceImage": "image uri",
+    "serviceName": "Club Security",
+    "serviceDescription": "Our bouncers have extensive experience in providing club security services. We ensure that the club is safe and secure for guests and that the establishment follows all safety protocols."
+  },
+  {
+    "id": 300,
+    "serviceImage": "image uri",
+    "serviceName": "Personal Security",
+    "serviceDescription": "Our bouncers provide personal security services for VIPs, executives, and individuals who require extra security. We provide discreet and professional protection services tailored to meet your specific needs"
+  },
+
+  {
+    "id": 400,
+    "serviceImage": "image uri",
+    "serviceName": "Crowd Management Security",
+    "serviceDescription": "We have years of experience in managing crowds, and we use our expertise to ensure that crowds are controlled and orderly. We can manage any size crowd, from small gatherings to large events."
+  },
+  {
+    "id": 500,
+    "serviceImage": "image uri",
+    "serviceName": "Risk Assessment",
+    "serviceDescription": "We provide risk assessment services to identify potential safety hazards and security risks. We work with you to develop a customized security plan to minimize potential risks and ensure the safety of your guests."
+  }
+]

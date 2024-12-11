@@ -17,7 +17,7 @@ export default function Header() {
   // function toggleMenu(){
 
   // }
-
+  // mobile Header
   return (
     <div className="w-full md:w-11/12 m-auto">
       <nav className="flex items-center justify-between" id="nav">
@@ -94,8 +94,11 @@ export default function Header() {
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link href="/contact">Contact</Link>
             </li>
-            <li className="rounded-full border-2 border-white" id="contactRBG">
-              <div className="flex justify-center items-center text-orange-500 bg-[#2a323c] rounded-full ">
+            <li
+              className="rounded-full border-2 border-[#ff914d]"
+              id="contactRBG"
+            >
+              <div className="flex justify-center items-center text-[#ff914d] bg-[#2a323c] hover:bg-[#ff914d] hover:text-white rounded-full ">
                 <FaPhoneAlt />
                 <p className="ml-2 font-extrabold text-2xl">8789-0333-03</p>
               </div>
