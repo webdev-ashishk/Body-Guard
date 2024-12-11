@@ -23,8 +23,9 @@ export default function PayNow() {
         </div>
         <div className="w-[8/12] md:w-[6/12] flex justify-center flex-col p-5 items-center">
           <Image src={UPI} alt="upi id" className="w-44" />
-          <div className="px-4 py-3 m-2  rounded-full border-2 text-2xl md:text-[2rem] lg:text-[3rem] font-bold text-orange-500 mt-5">
-            7905101205<span className="text-green-400">@ybl</span>
+          <div className="px-4 py-3 lg:py-4 m-2  rounded-full border-2 text-2xl md:text-[2rem] lg:text-[3rem] font-bold text-orange-500 mt-5 hover:text-green-300 hover:border-green-500">
+            7905101205
+            <span className="text-green-400">@ybl</span>
           </div>
         </div>
       </div>
