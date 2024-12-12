@@ -35,7 +35,7 @@ export default function HeaderMenuItems() {
           onMouseLeave={handleMouseOut}
         >
           <div className="inline-block">About US</div>
-          <div className="inline-block ml-2 font-bold align-middle">
+          <div className="inline-block ml-2 font-bold align-middle text-2xl">
             <IoMdArrowDropdown />
           </div>
           <ul
