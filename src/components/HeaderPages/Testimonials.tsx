@@ -16,7 +16,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div>
-      <section className="page1 border-2 border-white">
+      <section className="page1">
         <div className="p-16 bg-customGray text-white flex justify-around items-center currentPageOne">
           <h1 className="text-2xl font-extrabold">TESTIMONIALS</h1>
           <h2>

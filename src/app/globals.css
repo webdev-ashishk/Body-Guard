@@ -41,7 +41,6 @@ body {
     height: 80px;
   }
   .currentPageOne {
-    /* background-color: red; */
     flex-direction: column;
     column-gap: 40px;
   }
@@ -127,19 +126,12 @@ body {
   display: block;
   height: 210px;
   text-align: center;
-  /* background-image: url('../../public/images/navbarBackground.png'); */
-  /* background-size: 100% 100%; */
-  /* background-repeat: no-repeat; */
 }
-/* #mobileHeader > ul > li:hover {
-  background-color: #8a4319;
-} */
 #mobileHeader > ul {
   line-height: 30px;
 }
 #mobileHeader ul li:hover {
   background-color: #f97316;
-  /* border-radius: 50%; */
 }
 
 #menuItems > li {
@@ -148,15 +140,8 @@ body {
 }
 #logoText {
   font-weight: 900px;
-  /* font-family: 'Courier New', Courier, monospace; */
-  /* background-color: blue; */
 }
-#scrollToTop {
-  position: fixed;
-  bottom: 2rem;
-  right: 1rem;
-  /* left: 500; */
-}
+
 #dropDown {
   border: 1px solid gray;
   border-radius: 8%;

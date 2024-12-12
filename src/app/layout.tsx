@@ -33,7 +33,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#1d232a]`}
       >
-        <div className="scrollToTop" id="scrollToTop">
+        <div
+          className="scrollToTop fixed right-[1rem] bottom-[8rem] md:bottom-[3rem] lg:bottom-[2rem]"
+          id="scrollToTop"
+        >
           <ChatWithUs />
         </div>
         <div className="w-full m-auto bg-[#cbd2a4]">
