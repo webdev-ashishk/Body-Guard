@@ -15,11 +15,11 @@ const Contact = () => {
         </div>
       </div>
       <div className="w-full bg-[#1d232a]">
-        <div className="bg-[#1d232a] flex flex-wrap w-full md:w-10/12 lg:w-9/12 justify-center items-center mx-auto text-white my-2">
+        <div className="bg-[#1d232a]  flex flex-wrap w-full md:w-10/12 lg:w-9/12 justify-center items-center mx-auto text-white my-2">
           {contactData?.map((element) => (
             <div
               key={element?.id}
-              className="border-2 border-gray-400 w-[400px] h-[200px] m-2 p-2 rounded-lg hover:bg-yellow-700"
+              className="border-2 border-[#ff914d] border-dotted w-[400px] h-[200px] m-2 p-2 rounded-lg hover:bg-[#363f4a]"
             >
               <div className="w-[300px] flex justify-center items-center">
                 <Image
