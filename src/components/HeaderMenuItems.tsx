@@ -18,7 +18,7 @@ export default function HeaderMenuItems() {
   // desktop Header
   return (
     <div>
-      <ul id="menuItems" className="flex items-center gap-6 p-4">
+      <ul id="menuItems" className="flex items-center gap-1 p-4">
         <li className="">
           <Link
             href="/"
