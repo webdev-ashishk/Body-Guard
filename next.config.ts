@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
       'denetimservices.com',
       'www.promansecuritech.com',
       'sspatnabouncer.com',
+      'drive.google.com',
+      'drive.usercontent.google.com',
     ], // Add this line to allow images from this domain
   },
 };

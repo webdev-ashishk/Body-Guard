@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import Link from 'next/link';
-
+import contactData from '../../data/homePageContact.json';
 const Contact = () => {
+  console.log(contactData);
   return (
     <>
       <div className="page1">
@@ -12,14 +14,32 @@ const Contact = () => {
           </h2>
         </div>
       </div>
-      <div
-        className="sm:bg-green-400 md:bg-red-400 lg:bg-blue-300 xl:bg-yellow-700 bg-cover bg-center h-screen"
-        style={{
-          backgroundImage:
-            "url('https://www.shutterstock.com/image-vector/funny-cartoon-character-strong-bodyguard-vector-714575038')",
-        }}
-      >
-        Content here
+      <div className="w-full bg-[#1d232a]">
+        <div className="bg-[#1d232a] flex flex-wrap w-full md:w-10/12 lg:w-9/12 justify-center items-center mx-auto text-white my-2">
+          {contactData?.map((element) => (
+            <div
+              key={element?.id}
+              className="border-2 border-gray-400 w-[400px] h-[200px] m-2 p-2 rounded-lg hover:bg-yellow-700"
+            >
+              <div className="w-[300px] flex justify-center items-center">
+                <Image
+                  src={element.icons}
+                  alt="task icons"
+                  width={100}
+                  height={100}
+                  className="text-orange-400"
+                />
+                <span className="font-bold ml-3">{element.title}</span>
+              </div>
+              <div className="text-center text-1rem font-bold">
+                {element.description}
+                <span className="text-[1.1rem] font-bold mx-6 text-white">
+                  {element?.hours}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
