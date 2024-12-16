@@ -100,7 +100,12 @@ export default function Header() {
             >
               <div className="flex justify-center items-center text-[#ff914d] bg-[#2a323c] hover:bg-[#ff914d] hover:text-white rounded-full ">
                 <FaPhoneAlt />
-                <p className="ml-2 font-extrabold text-2xl">8789-0333-03</p>
+                <Link
+                  href={`tel:${918789033303}`}
+                  className="ml-2 font-extrabold text-2xl"
+                >
+                  8789-0333-03
+                </Link>
               </div>
             </li>
           </ul>

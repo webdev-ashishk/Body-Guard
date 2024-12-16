@@ -7,7 +7,7 @@ export default function FAQS() {
   return (
     <div className="text-white bg-[#1d232a]">
       <h1 className="text-[1.5rem] md:text-[2rem] lg:text-[3rem] p-3 font-extrabold text-center">
-        Frequently Asked Questions
+        TOP 14 Frequently Asked Questions
       </h1>
       <ul onClick={handleQA} className="w-11/12 md:w-10/12 lg:w-8/12 mx-auto">
         {_FAQS?.faqs.map((element) => (
