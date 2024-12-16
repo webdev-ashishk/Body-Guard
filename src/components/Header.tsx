@@ -103,6 +103,7 @@ export default function Header() {
                 <Link
                   href={`tel:${8789033303}`}
                   className="ml-2 font-extrabold text-2xl"
+                  onClick={() => setOpenMenu(!openMenu)}
                 >
                   8789-0333-03
                 </Link>

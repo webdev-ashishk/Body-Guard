@@ -101,11 +101,14 @@ export default function HeaderMenuItems() {
           className="rounded-full border-2 border-[#ff914d] text-[#ff914d]"
           id="contactRBG"
         >
-          <div className="flex justify-between items-center">
+          <div className="cursor-pointer flex justify-between items-center">
             <FaPhoneAlt />
-            <p className="ml-2 font-extrabold text-1xl md:text-[1.2rem]">
+            <Link
+              href={`tel:${8789033303}`}
+              className="ml-2 font-extrabold text-1xl md:text-[1.2rem]"
+            >
               8789-0333-03
-            </p>
+            </Link>
           </div>
         </li>
       </ul>
