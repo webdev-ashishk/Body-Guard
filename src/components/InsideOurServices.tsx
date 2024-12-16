@@ -1,12 +1,11 @@
-import { ServicesType } from '../utils/Services';
-export default function InsideOurServices(servicesData: ServicesType) {
+import services from '../data/homePageServices.json';
+export default function InsideOurServices() {
   // TODO HERE IS LOGIC TO FIND DATA WRITE WAY !
   // console.log(servicesData?.servicesData[0]);
   // const { id, serviceImage, serviceName, serviceDescription } =
   //   servicesData?.servicesData[0];
   // console.log(id, serviceImage, serviceName, serviceDescription);
-  const myServiceData = servicesData.servicesData;
-  console.log(myServiceData);
+  console.log(services);
   return (
     <div>
       <h1 className="bg-white text-black">Inside Our Services</h1>
@@ -17,7 +16,7 @@ export default function InsideOurServices(servicesData: ServicesType) {
         ))}
       </div> */}
       <div>
-        {myServiceData.map((service: ServicesType) => {
+        {services.map((service) => {
           return <div key={service.id}>{service.id}</div>;
         })}
       </div>

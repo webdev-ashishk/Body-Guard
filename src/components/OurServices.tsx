@@ -1,4 +1,3 @@
-import services from '../data/homePageServices.json';
 import InsideOurServices from './InsideOurServices';
 export default function OurServices() {
   return (
@@ -10,7 +9,7 @@ export default function OurServices() {
         We offer a wide range of security services with a customized security
         solution to protect the people and their valuable assets.
       </h2>
-      <InsideOurServices servicesData={services} />
+      <InsideOurServices />
     </div>
   );
 }
