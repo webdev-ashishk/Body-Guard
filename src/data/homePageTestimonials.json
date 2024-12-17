@@ -1,56 +1,74 @@
 [
   {
     "id": 1000,
-    "userName": "userNames",
-    "serviceName": "Event service",
-    "description": "we takes a bouncer service for my event!"
+    "userName": "Rajesh Sharma",
+    "userProfile": "userImage1.jpg",
+    "serviceName": "Event Security Service",
+    "description": "We hired bouncers for my son's wedding, and the service was exceptional. Very professional and disciplined team!",
+    "rating": "****"
   },
   {
     "id": 2000,
-    "userName": "userNames",
-    "serviceName": "Event service",
-    "description": "we takes a bouncer service for my event!"
+    "userName": "Neha Gupta",
+    "userProfile": "userImage2.jpg",
+    "serviceName": "Event Security Service",
+    "description": "The bouncer team ensured our event was safe and smooth. Highly recommended for events.",
+    "rating": "****"
   },
   {
     "id": 3000,
-    "userName": "userNames",
-    "serviceName": "Event service",
-    "description": "we takes a bouncer service for my event!"
+    "userName": "Amit Singh",
+    "userProfile": "userImage3.jpg",
+    "serviceName": "Nightclub Security",
+    "description": "Professional bouncers who managed the crowd well at our nightclub party. Great service!",
+    "rating": "*****"
   },
   {
     "id": 4000,
-    "userName": "userNames",
-    "serviceName": "Event service",
-    "description": "we takes a bouncer service for my event!"
-  },
-  {
-    "id": 4000,
-    "userName": "userNames",
-    "serviceName": "Event service",
-    "description": "we takes a bouncer service for my event!"
+    "userName": "Pooja Mehra",
+    "userProfile": "userImage4.jpg",
+    "serviceName": "Private Party Security",
+    "description": "I felt completely secure during my private party with their team around. Very punctual and polite.",
+    "rating": "****"
   },
   {
     "id": 5000,
-    "userName": "userNames",
-    "serviceName": "Event service",
-    "description": "we takes a bouncer service for my event!"
+    "userName": "Anil Kumar",
+    "userProfile": "userImage5.jpg",
+    "serviceName": "Corporate Event Security",
+    "description": "Their security service for our corporate event was flawless. The team handled everything professionally.",
+    "rating": "*****"
   },
   {
     "id": 6000,
-    "userName": "userNames",
-    "serviceName": "Event service",
-    "description": "we takes a bouncer service for my event!"
+    "userName": "Suman Roy",
+    "userProfile": "userImage6.jpg",
+    "serviceName": "Concert Security",
+    "description": "Impressive crowd control during our concert event. Very experienced team of bouncers.",
+    "rating": "****"
   },
   {
     "id": 7000,
-    "userName": "userNames",
-    "serviceName": "Event service",
-    "description": "we takes a bouncer service for my event!"
+    "userName": "Ravi Verma",
+    "userProfile": "userImage7.jpg",
+    "serviceName": "VIP Security Service",
+    "description": "We hired bouncers for VIP guests at our event, and they did a fantastic job. Highly professional.",
+    "rating": "*****"
   },
   {
     "id": 8000,
-    "userName": "userNames",
-    "serviceName": "Event service",
-    "description": "we takes a bouncer service for my event!"
+    "userName": "Priya Sinha",
+    "userProfile": "userImage8.jpg",
+    "serviceName": "Wedding Security",
+    "description": "The bouncers were courteous and ensured security at my wedding. Totally worth it.",
+    "rating": "****"
+  },
+  {
+    "id": 9000,
+    "userName": "Rakesh Yadav",
+    "userProfile": "userImage9.jpg",
+    "serviceName": "Festival Security",
+    "description": "Their bouncers handled the massive crowd at our festival with ease. Great service!",
+    "rating": "*****"
   }
 ]

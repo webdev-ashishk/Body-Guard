@@ -17,13 +17,13 @@ export default function Footer() {
         <span className="px-2">
           <Link href="/testimonials">Reviews</Link>
         </span>
-        ||{' '}
-        <span>
-          Developed by{' '}
+        ||
+        <span className="ml-2">
+          Developed by
           <Link
             href="https://growwithcs.com"
             target="_blank"
-            className="border-2 border-orange-500 p-2 m-2 text-[1.2rem] rounded-full bg-orange-900"
+            className="border-2 border-[#ff914d] p-2 m-2 text-[1.1rem] rounded-full bg-blue-500 font-bold tracking-wider hover:bg-orange-700"
           >
             growwithcs.com
           </Link>

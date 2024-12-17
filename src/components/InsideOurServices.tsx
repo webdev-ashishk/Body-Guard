@@ -9,7 +9,7 @@ export default function InsideOurServices() {
           return (
             <div
               key={id}
-              className="shadow-inner w-[300px] h-[400px] rounded-lg bg-gray-700 hover:bg-gray-600"
+              className="shadow-inner w-[300px] h-[400px] rounded-lg bg-gray-700 hover:bg-gray-600 mb-3"
             >
               <Image
                 src={icon}

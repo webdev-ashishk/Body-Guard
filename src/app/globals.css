@@ -147,7 +147,12 @@ body {
   border-radius: 8%;
 }
 #dropDown li {
-  margin: 10px 0px;
+  /* margin: 10px 0px; */
+  padding: 7px 0px;
+}
+#dropDown > li:hover {
+  background-color: #ff914d;
+  border-radius: 10px;
 }
 #contactRBG:hover {
   color: white;

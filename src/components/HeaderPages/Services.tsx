@@ -45,7 +45,7 @@ const Services = () => {
       <section className="page2  py-12 w-10/12 m-auto">
         <div className="container mx-auto px-6">
           <h1 className="text-4xl font-semibold text-center text-white mb-10">
-            Our Services
+            Our Services!
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {services.map((service, index) => {

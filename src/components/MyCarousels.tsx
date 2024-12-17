@@ -6,7 +6,7 @@ import { Carousel } from 'react-bootstrap';
 
 function MyCarousels() {
   return (
-    <Carousel>
+    <Carousel className="-z-10">
       <Carousel.Item>
         <Image
           className="d-block w-100"

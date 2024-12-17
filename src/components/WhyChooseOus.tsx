@@ -13,7 +13,7 @@ export default function WhyChooseOus() {
           return (
             <div
               key={data.id}
-              className="w-[25rem] mx-auto hover:bg-gray-700 border-2 border-dotted border-yellow-500 rounded-lg flex justify-center items-start"
+              className="w-[25rem] mx-auto hover:bg-gray-700 border-2 border-dotted border-yellow-500 rounded-lg flex justify-center items-start p-2"
             >
               <div className="w-full" id="whyChooseUsImage">
                 <Image

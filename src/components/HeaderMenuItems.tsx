@@ -34,15 +34,25 @@ export default function HeaderMenuItems() {
           onMouseOver={handleHover}
           onMouseLeave={handleMouseOut}
         >
-          <div className="inline-block">About US</div>
+          <div className="inline-block">Company</div>
           <div className="inline-block ml-2 font-bold align-middle text-2xl">
             <IoMdArrowDropdown />
           </div>
           <ul
-            className="absolute w-40 bg-[#2a323c] pl-2 py-2 my-2 hidden cursor-pointer text-center"
+            className="absolute w-40 bg-[#2a323c] hidden cursor-pointer text-center my-2"
             id="dropDown"
           >
-            <li>
+            <li className="">
+              <Link
+                href="/aboutus"
+                className={
+                  currentPath === '/aboutus' ? activeLink : nonActiveLink
+                }
+              >
+                About US
+              </Link>
+            </li>
+            <li className="">
               <Link
                 href="/team"
                 className={currentPath === '/team' ? activeLink : nonActiveLink}
@@ -68,6 +78,26 @@ export default function HeaderMenuItems() {
                 }
               >
                 Careers
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/gallery"
+                className={
+                  currentPath === '/gallery' ? activeLink : nonActiveLink
+                }
+              >
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/director"
+                className={
+                  currentPath === '/director' ? activeLink : nonActiveLink
+                }
+              >
+                Director
               </Link>
             </li>
           </ul>
