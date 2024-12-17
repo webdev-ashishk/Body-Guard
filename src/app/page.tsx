@@ -8,7 +8,7 @@ export default function Home() {
         <div className="page2 our-services w-full bg-slate-800">
           {/* <OurServices /> */}
         </div>
-        <div className="page3 why-choose-us w-full bg-blue-500">
+        <div className="page3 why-choose-us w-full">
           <WhyChooseOus />
         </div>
         <div className="page4 testimonials"></div>
