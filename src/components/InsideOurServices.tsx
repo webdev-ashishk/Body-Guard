@@ -1,23 +1,32 @@
+import Image from 'next/image';
 import services from '../data/homePageServices.json';
 export default function InsideOurServices() {
-  // TODO HERE IS LOGIC TO FIND DATA WRITE WAY !
-  // console.log(servicesData?.servicesData[0]);
-  // const { id, serviceImage, serviceName, serviceDescription } =
-  //   servicesData?.servicesData[0];
-  // console.log(id, serviceImage, serviceName, serviceDescription);
   console.log(services);
   return (
-    <div>
-      <h1 className="bg-white text-black">Inside Our Services</h1>
-      {/* TODO BOTH MAPS ARE GOOD ! */}
-      {/* <div>
-        {myServiceData.map((element: ServicesType) => (
-          <div key={element.id}>{element.id}</div>
-        ))}
-      </div> */}
-      <div>
-        {services.map((service) => {
-          return <div key={service.id}>{service.id}</div>;
+    <div className="inside-our-services">
+      <div className="flex gap-4 flex-wrap justify-center items-center">
+        {services.map(({ id, icon, serviceName, serviceDescription }) => {
+          return (
+            <div
+              key={id}
+              className="shadow-inner w-[300px] h-[400px] rounded-lg bg-gray-700 hover:bg-gray-600"
+            >
+              <Image
+                src={icon}
+                alt="serviceImage"
+                width={300}
+                height={200}
+                className="rounded-t-lg"
+                id="OverServiceImage"
+              />
+              <ul>
+                <li className="font-extrabold text-[1.2rem] text-[#ff914d] px-2">
+                  {serviceName}
+                </li>
+                <li className="pl-3">{serviceDescription}</li>
+              </ul>
+            </div>
+          );
         })}
       </div>
     </div>

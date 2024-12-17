@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Client Satisfaction",
+    "description": "80+ Esteemed clients pan-India at more than 160 locations.",
+    "image_url": "https://drive.usercontent.google.com/download?id=1cUEf7uPpcV2iy4F5bB5PmGcwyQBf2LPi&authuser=0"
+  },
+  {
+    "id": 2,
+    "title": "Committed to Protect You",
+    "description": "We have a very Supportive and Experienced Security Operations Team.",
+    "image_url": "https://drive.usercontent.google.com/download?id=1WJp926oocpUeF4nZpqPKMhD0Y1H12dt0&authuser=0"
+  },
+  {
+    "id": 3,
+    "title": "Zero Tolerance",
+    "description": "We follow ZERO Tolerance for lack of integrity, divulging confidential information, reporting after consuming alcohol, sleeping on duty.",
+    "image_url": "https://drive.usercontent.google.com/download?id=1nS79wrFyoI5VtDni5cUc0eXzqaK-AP3O&authuser=0"
+  },
+  {
+    "id": 4,
+    "title": "Quick Support",
+    "description": "We offer quick support in times of crisis.",
+    "image_url": "https://drive.usercontent.google.com/download?id=1zH4wSU-Kd0iIbTCGKGXZmt-XoXfd11F1&authuser=0"
+  },
+  {
+    "id": 5,
+    "title": "100% Compliance",
+    "description": "We maintain updated legal compliance under all statutes.",
+    "image_url": "https://drive.usercontent.google.com/download?id=1UhEHCvVAg1nwfw9SjKfLXzTv60KW38c8&authuser=0"
+  },
+
+  {
+    "id": 7,
+    "title": "NO Labour Dispute",
+    "description": "Not a single labour dispute till date. There is No Union in our organization. Also there are No Unfair Labour practices under any circumstances in our company."
+  },
+  {
+    "id": 8,
+    "title": "Experience",
+    "description": "Excellent track record of 62 years in Specialized Security Management services.",
+    "image_url": "https://drive.usercontent.google.com/download?id=1OUzGCCgT-YuxbhfsLbrSDXXDRnqhCn80&authuser=0"
+  },
+  {
+    "id": 10,
+    "title": "ISO Certified Company",
+    "description": "An ISO 9001:2015 Certified Company.",
+    "image_url": "https://drive.usercontent.google.com/download?id=1S-KFlPYb-AhkoRmwNuIAZtxWD8NviMmI&authuser=0"
+  }
+]

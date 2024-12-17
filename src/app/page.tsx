@@ -1,22 +1,17 @@
-import OurServices from '@/components/OurServices';
 import WhyChooseOus from '@/components/WhyChooseOus';
-import WhyUs from '@/components/WhyUs';
 export default function Home() {
   return (
     <div>
       <div>
         {/* carousel */}
         <div className="page1">{/* <MyCarousels /> */}</div>
-        <div className="page2OurServices w-full bg-gray-400">
-          <OurServices />
+        <div className="page2 our-services w-full bg-slate-800">
+          {/* <OurServices /> */}
         </div>
-        <div className="page5"></div>
-        <div className="page6">
+        <div className="page3 why-choose-us w-full bg-blue-500">
           <WhyChooseOus />
         </div>
-        <div className="page7">
-          <WhyUs />
-        </div>
+        <div className="page4 testimonials"></div>
       </div>
     </div>
   );
