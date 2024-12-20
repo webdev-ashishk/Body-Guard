@@ -7,7 +7,7 @@ export default function FAQS() {
     setActiveId((prev) => (prev === id ? null : id));
   };
   return (
-    <div className="text-white bg-[#1d232a]">
+    <div className="text-white bg-[#384350] py-5">
       <h1 className="text-[1.5rem] md:text-[2rem] lg:text-[3rem] p-3 font-extrabold text-center">
         TOP 14 Frequently Asked Questions
       </h1>

@@ -13,6 +13,8 @@ const nextConfig: NextConfig = {
       'sspatnabouncer.com',
       'drive.google.com',
       'drive.usercontent.google.com',
+      'do6gp1uxl3luu.cloudfront.net',
+      'png.pngtree.com',
     ], // Add this line to allow images from this domain
   },
 };
