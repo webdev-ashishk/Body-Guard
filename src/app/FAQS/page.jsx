@@ -15,17 +15,19 @@ export default function FAQS() {
         {_FAQS?.faqs.map((element) => (
           <li
             key={element.id}
-            className="text-1xl md:text-2xl bg-[#a87552] p-2 m-4 md:m-8 lg:m-10 rounded-2xl"
+            className="text-1xl md:text-2xl bg-[#a87552] m-2 rounded-2xl"
             onClick={() => toggleAnswers(element.id)}
           >
-            <p className=" rounded-lg p-2 m-2 flex justify-between">
+            <p className=" rounded-lg p-2 m-2 text-[1.1rem] md:text-[1.5rem] flex justify-between">
               <span>{element.question}</span>
               <span className="text-2xl md:text-4xl">
                 {activeId === element.id ? '-' : '+'}
               </span>
             </p>
             {activeId === element.id && (
-              <i className="pl-2 m-2"> {element.answer}</i>
+              <p className="pl-5 text-green-400">
+                ➥ <i> {element.answer} </i>
+              </p>
             )}
           </li>
         ))}
