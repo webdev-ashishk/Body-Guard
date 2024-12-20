@@ -2,22 +2,49 @@
   {
     "id": 1,
     "number": "1000+",
-    "pname": "Project Done"
+    "pname": "Security Assignments Completed",
+    "icon": "🛡️"
   },
-
   {
     "id": 2,
-    "number": "2000+",
-    "pname": "Qualified Employee"
+    "number": "250+",
+    "pname": "Certified Security Professionals",
+    "icon": "👮"
   },
   {
     "id": 3,
     "number": "3000+",
-    "pname": "Deal Assigned"
+    "pname": "Contracts Managed",
+    "icon": "📜"
   },
   {
     "id": 4,
     "number": "4000+",
-    "pname": "Satisfied Clients"
+    "pname": "Happy Clients",
+    "icon": "😊"
+  },
+  {
+    "id": 5,
+    "number": "15 Minutes",
+    "pname": "Average Response Time",
+    "icon": "⏱️"
+  },
+  {
+    "id": 6,
+    "number": "500+",
+    "pname": "Events Secured",
+    "icon": "🎉"
+  },
+  {
+    "id": 7,
+    "number": "20+",
+    "pname": "Years of Expertise",
+    "icon": "📅"
+  },
+  {
+    "id": 8,
+    "number": "50+",
+    "pname": "Cities Covered",
+    "icon": "🗺️"
   }
 ]

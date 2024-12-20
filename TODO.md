@@ -17,3 +17,5 @@
 # How we can know website color layout , what color should be in header , Navigation , body ??//
 
 # All the questions and you get from "chatGPT"
+
+# hover effects "hover:scale-105 transform transition duration-300 ease-in-out"
