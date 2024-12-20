@@ -7,3 +7,14 @@
 > 5.  REACT
 > 6.  NEXTJS
 > 7.  TYPESCRIPT
+
+# Service Provided
+
+> Golu Yadav Singer
+> Anupama Yadav
+> mani maraj
+> angel liza "viral dancer"
+> shivani singh " singer "
+> Priya Roy malik
+> khesari_yadav
+> dimple singh actrace
