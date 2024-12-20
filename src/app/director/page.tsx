@@ -3,7 +3,7 @@ import Image from 'next/image';
 import './directorStyle.css';
 export default function Director() {
   return (
-    <div className="bg-red-400 md:bg-blue-400 lg:bg-gray-800 text-white w-full md:w-[60rem]  lg:w-[50rem] mx-auto border-2 p-2">
+    <div className="bg-[#1d232a] text-white w-full md:w-[60rem]  lg:w-[50rem] mx-auto  p-2">
       <h1 id="h11">Meet the Directors</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full mx-auto md:w-[90%]">
         <div id="firstDiv" className="inside-director">

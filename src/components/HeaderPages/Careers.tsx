@@ -17,7 +17,7 @@ const Careers = () => {
         <p className="p-2 m-2">
           Are you looking to join a team of dedicated, highly trained
           professionals committed to excellence in security and personal
-          protection? At [Your Company Name], we are always seeking skilled and
+          protection? At ROYAL BOUNCER GROUP, we are always seeking skilled and
           motivated individuals to join our ranks. If you are passionate about
           safety, highly disciplined, and ready to make a difference, we had
           love to hear from you.
@@ -76,11 +76,11 @@ const Careers = () => {
         <h2 className="font-bold text-yellow-600">How to Apply</h2>
         <p className="p-2 m-2">
           Ready to take the next step? Submit your resume and cover letter to
-          [email@example.com] with the subject line “Career Application ,
-          [Position Name].” We will be in touch if your skills and experience
-          are a match. Join us in creating safer spaces for our clients and
-          communities. At [Your Company Name], we do not just offer jobs; we
-          offer careers built on purpose, commitment, and excellence.
+          [royalbouncergroup.bihar@gmail.com] with the subject line “Career
+          Application , [Position Name].” We will be in touch if your skills and
+          experience are a match. Join us in creating safer spaces for our
+          clients and communities. At [Your Company Name], we do not just offer
+          jobs; we offer careers built on purpose, commitment, and excellence.
         </p>
       </div>
     </div>
