@@ -53,7 +53,6 @@ export default function Header() {
             }}
           >
             {openMenu ? <IoMdClose /> : <RxHamburgerMenu className="" />}
-            {/* <li>{getTheData}</li> */}
           </ul>
         </div>
       </nav>
