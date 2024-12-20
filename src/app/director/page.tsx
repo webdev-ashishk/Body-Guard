@@ -3,8 +3,10 @@ import Image from 'next/image';
 import './directorStyle.css';
 export default function Director() {
   return (
-    <div className="bg-[#1d232a] text-white w-full md:w-[60rem]  lg:w-[50rem] mx-auto  p-2">
-      <h1 id="h11">Meet the Directors</h1>
+    <div className="bg-[#1d232a] text-white w-full md:w-[60rem]  lg:w-[50rem] mx-auto  p-2 ">
+      <h1 id="h11" className="pb-16">
+        Meet the Directors
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full mx-auto md:w-[90%]">
         <div id="firstDiv" className="inside-director">
           <Image
@@ -12,7 +14,7 @@ export default function Director() {
             alt="text"
             width={100}
             height={100}
-            className="w-[60%] md:w-[80%] lg:w-full h-full rounded-lg"
+            className="w-[60%] md:w-[80%] lg:w-full h-full pl-16 md:pl-0 lg:pl-0 rounded-lg"
           />
         </div>
         <div id="secondDiv" className="">

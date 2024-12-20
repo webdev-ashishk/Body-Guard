@@ -18,7 +18,7 @@ export default function Home() {
         <div className="page3 why-choose-us w-full">
           <WhyChooseOus />
         </div>
-        <div className="page4 pt-16">
+        <div className="page4 py-20">
           <OurCommunity />
           <Director />
         </div>
