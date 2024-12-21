@@ -15,13 +15,10 @@ export default function Home() {
           <Introduction />
         </div>
 
-        <div
-          className="page2 our-services w-full bg-slate-800 border-2"
-          id="services"
-        >
+        <div className="page2 our-services w-full bg-slate-800" id="services">
           <OurServices />
         </div>
-        <div className="page-22 w-full bg-slate-700">
+        <div className="page-22 w-full bg-[#1d232a]">
           {/* <SuccessCount /> */}
           <SuccessCount2 />
         </div>

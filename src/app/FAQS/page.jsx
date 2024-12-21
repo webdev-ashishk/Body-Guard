@@ -7,7 +7,7 @@ export default function FAQS() {
     setActiveId((prev) => (prev === id ? null : id));
   };
   return (
-    <div className="text-white bg-[#384350] py-5">
+    <div className="text-white bg-[#1d232a] py-5">
       <h1 className="text-[1.4rem] md:text-[2rem] lg:text-[3rem] p-3 font-extrabold text-center">
         Frequently Asked Questions
       </h1>
@@ -15,7 +15,7 @@ export default function FAQS() {
         {_FAQS?.faqs.map((element) => (
           <li
             key={element.id}
-            className="text-1xl md:text-2xl bg-[#a87552] m-2 rounded-2xl"
+            className="text-1xl md:text-2xl bg-gray-700 m-2 rounded-2xl"
             onClick={() => toggleAnswers(element.id)}
           >
             <p className=" rounded-lg p-2 m-2 text-[1.1rem] md:text-[1.5rem] flex justify-between">

@@ -4,7 +4,7 @@ export default function WhyChooseOus() {
   console.log(chooseUsDatas);
   return (
     <div className="text-white w-11/12 md:w-11/12 lg:w-10/12 mx-auto my-4">
-      <h2 className="text-2xl md:text-3xl lg:text-3xl font-bold text-center p-6">
+      <h2 className="text-2xl md:text-3xl lg:text-3xl font-bold text-center p-6 mb-10">
         WHY CHOOSE
         <span className="font-bold text-[#e6b008]"> ROYAL BOUNCER GROUP</span>
       </h2>

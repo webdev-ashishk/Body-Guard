@@ -3,7 +3,7 @@ import services from '../data/homePageServices.json';
 export default function InsideOurServices() {
   console.log(services);
   return (
-    <div className="inside-our-services">
+    <div className="inside-our-services pb-12">
       <div className="flex gap-4 flex-wrap justify-center items-center">
         {services.map(({ id, icon, serviceName, serviceDescription }) => {
           return (
