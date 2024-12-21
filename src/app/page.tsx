@@ -1,7 +1,7 @@
 import MyCarousels from '@/components/MyCarousels';
 import OurCommunity from '@/components/OurComminity';
 import OurServices from '@/components/OurServices';
-import SuccessCount from '@/components/SuccessCount';
+import SuccessCount2 from '@/components/SuccessCount2';
 import WhyChooseOus from '@/components/WhyChooseOus';
 import HomePageTestimonials from '../components/HomePageTestimonials';
 import FAQS from './FAQS/page';
@@ -16,8 +16,9 @@ export default function Home() {
         <div className="page2 our-services w-full bg-slate-800">
           <OurServices />
         </div>
-        <div className="page2.2 w-full bg-slate-700">
-          <SuccessCount />
+        <div className="page-22 w-full bg-slate-700">
+          {/* <SuccessCount /> */}
+          <SuccessCount2 />
         </div>
         <div className="page3 why-choose-us w-full">
           <WhyChooseOus />
