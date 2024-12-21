@@ -1,4 +1,4 @@
-import MyCarousels from '@/components/MyCarousels';
+import Introduction from '@/components/Introduction';
 import OurCommunity from '@/components/OurComminity';
 import OurServices from '@/components/OurServices';
 import SuccessCount2 from '@/components/SuccessCount2';
@@ -11,9 +11,14 @@ export default function Home() {
     <div>
       <div>
         <div className="page1">
-          <MyCarousels />
+          {/* <MyCarousels /> */}
+          <Introduction />
         </div>
-        <div className="page2 our-services w-full bg-slate-800">
+
+        <div
+          className="page2 our-services w-full bg-slate-800 border-2"
+          id="services"
+        >
           <OurServices />
         </div>
         <div className="page-22 w-full bg-slate-700">
