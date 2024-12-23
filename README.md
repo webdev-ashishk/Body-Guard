@@ -10,14 +10,15 @@
 
 # Service Provided
 
-> Golu Yadav Singer
+> Aniruddhacharya
+> Golu Yadav
 > Anupama Yadav
-> mani maraj
-> angel liza "viral dancer"
-> shivani singh " singer "
+> Mani Meraj
+> angel liza
+> shivani singh
 > Priya Roy malik
-> khesari_yadav
-> dimple singh actrace
+> khesari yadav
+> dimple singh
 > Kajal Raj
 > Yamini Singh
-> Famouse Singe Nisha Upadhyal singh
+> Nisha Upadhya singh

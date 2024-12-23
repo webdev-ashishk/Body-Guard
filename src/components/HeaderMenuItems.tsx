@@ -52,6 +52,16 @@ export default function HeaderMenuItems() {
                 About US
               </Link>
             </li>
+            <li>
+              <Link
+                href="/gallery"
+                className={
+                  currentPath === '/gallery' ? activeLink : nonActiveLink
+                }
+              >
+                Gallery
+              </Link>
+            </li>
             <li className="">
               <Link
                 href="/team"
@@ -80,16 +90,7 @@ export default function HeaderMenuItems() {
                 Careers
               </Link>
             </li>
-            <li>
-              <Link
-                href="/gallery"
-                className={
-                  currentPath === '/gallery' ? activeLink : nonActiveLink
-                }
-              >
-                Gallery
-              </Link>
-            </li>
+
             <li>
               <Link
                 href="/director"
