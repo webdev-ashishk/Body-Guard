@@ -58,7 +58,7 @@ export default function Header() {
       </nav>
       {openMenu && (
         <div
-          className="h-64 absolute z-50 bg-gray-500 w-full"
+          className="h-72 absolute z-50 bg-gray-500 w-full"
           id="mobileHeader"
         >
           <ul className="flex flex-col justify-center items-center text-white ">
@@ -75,6 +75,11 @@ export default function Header() {
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link href="/about">About Us</Link>
             </li>
+
+            <li onClick={() => setOpenMenu(!openMenu)}>
+              <Link href="/gallery">Gallery</Link>
+            </li>
+
             <li onClick={() => setOpenMenu(!openMenu)}>
               <Link href="/services">Services</Link>
             </li>
