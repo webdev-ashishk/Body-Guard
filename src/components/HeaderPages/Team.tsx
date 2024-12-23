@@ -1,11 +1,9 @@
 'use client';
-import Link from 'next/link';
-import Team2 from './Team2';
 
 const Team = () => {
   return (
-    <div className="caret-white">
-      <div className="page1 p-16 bg-customGray text-white flex justify-around items-center currentPageOne">
+    <div className="caret-white h-screen">
+      {/* <div className="page1 p-16 bg-customGray text-white flex justify-around items-center currentPageOne">
         <h1 className="text-2xl">TEAM</h1>
         <h2>
           <Link href="/" className="cursor-pointer">
@@ -16,7 +14,10 @@ const Team = () => {
       </div>
       <div className="page2 w-10/12 m-auto">
         <Team2 />
-      </div>
+      </div> */}
+      <h1 className="text-[5rem] text-gray-300 text-center font-bold mt-5 text white">
+        Working on This Page!
+      </h1>
     </div>
   );
 };
