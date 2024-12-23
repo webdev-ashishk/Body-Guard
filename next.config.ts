@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
       'drive.usercontent.google.com',
       'do6gp1uxl3luu.cloudfront.net',
       'png.pngtree.com',
+      'res.cloudinary.com',
     ], // Add this line to allow images from this domain
   },
 };

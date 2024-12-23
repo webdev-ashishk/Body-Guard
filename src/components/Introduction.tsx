@@ -7,15 +7,19 @@ export default function Introduction() {
         {/* Text Content */}
         <div className="text-center lg:text-left">
           <h1 className="text-4xl font-extrabold mb-6">
-            Welcome to{' '}
+            Welcome to
             <span className="text-blue-500">Your Trusted Security Partner</span>
           </h1>
           <p className="text-lg text-gray-400 leading-relaxed mb-6">
-            At <span className="font-bold">[Your Business Name]</span>, we
-            specialize in providing top-notch security solutions tailored to
-            meet the needs of businesses, events, and individuals. With a team
-            of highly trained professionals and years of experience, we ensure
-            your safety is always our priority.
+            At
+            <span className="font-bold text-gray-300">
+              {' '}
+              Royal Bouncer Group Gopalganj{' '}
+            </span>
+            , we specialize in providing top-notch security solutions tailored
+            to meet the needs of businesses, events, and individuals. With a
+            team of highly trained professionals and years of experience, we
+            ensure your safety is always our priority.
           </p>
           <p className="text-lg text-gray-400 leading-relaxed">
             From safeguarding your assets to managing large-scale events, we
