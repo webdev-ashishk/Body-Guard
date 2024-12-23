@@ -10,43 +10,45 @@ function MyCarousels() {
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src="https://www.promansecuritech.com/wp-content/uploads/2019/05/bouncer-services.jpg"
+          src="/images/slide/firstSlide.png"
           alt="First slide"
           width={800}
           height={400}
+          unoptimized={true}
         />
-        <Carousel.Caption>
-          <h3>First Slide</h3>
-          <p>Description for the first slide.</p>
-        </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
         <Image
           className="d-block w-100"
-          src="https://5.imimg.com/data5/VT/RC/ZD/SELLER-2174304/bouncer-uniform-1000x1000.jpg"
-          alt="Second slide"
-          width={800}
-          height={400}
-        />
-        <Carousel.Caption>
-          <h3>Second Slide</h3>
-          <p>Description for the second slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <Image
-          className="d-block w-100"
-          src="https://denetimservices.com/wp-content/uploads/2022/03/Bouncer-Bodyguard-Hire-for-event-security-Mumbai.jpg"
+          src="/images/slide/slideFourth.png"
           alt="Third slide"
           width={800}
           height={100}
+          unoptimized={true}
         />
-        <Carousel.Caption>
-          <h3>Third Slide</h3>
-          <p>Description for the third slide.</p>
-        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <Image
+          className="d-block w-100"
+          src="/images/slide/thirdSlide.png"
+          alt="Third slide"
+          width={800}
+          height={100}
+          unoptimized={true}
+        />
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <Image
+          className="d-block w-100"
+          src="/images/slide/secondSlide.png"
+          alt="Second slide"
+          width={800}
+          height={400}
+          unoptimized={true}
+        />
       </Carousel.Item>
     </Carousel>
   );

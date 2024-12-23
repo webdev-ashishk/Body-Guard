@@ -1,5 +1,5 @@
 import successCount2 from '../data/successCount.json';
-export default function SuccessCount2() {
+export default function Achievements() {
   console.log(successCount2);
   return (
     <div className="text-white w-11/12 md:w-10/12 lg:w-10/12 mx-auto">
