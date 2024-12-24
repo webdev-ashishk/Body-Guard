@@ -69,8 +69,8 @@ body {
   #image9,
   #image10 {
     /* border: 2px solid orange; */
-    margin: 10px 10px;
-    width: 300px;
+    margin: 10px;
+    width: 18.75rem;
     box-shadow: 10px 4px 10px rgba(255, 166, 0, 0.883); /* Orange shadow */
     border: 1px solid rgba(255, 165, 0, 0.8); /* Optional orange border */
   }
@@ -203,8 +203,8 @@ body {
 #image9,
 #image10 {
   /* border: 2px solid orange; */
-  margin: 10px 10px;
-  width: 400px;
+  margin: 10px;
+  min-width: 20rem;
   box-shadow: 10px 4px 10px rgba(255, 166, 0, 0.883); /* Orange shadow */
   border: 1px solid rgba(255, 165, 0, 0.8); /* Optional orange border */
 }
