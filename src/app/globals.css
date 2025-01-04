@@ -6,6 +6,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  overflow-x: hidden;
+  margin: 0; /* Optional, if you want to remove any default margin */
+}
 
 body {
   font-family: sans-serif, Arial, Helvetica;
