@@ -13,6 +13,8 @@ export default function WhyChooseOus() {
           return (
             <div
               key={data.id}
+              data-aos="fade-right"
+              data-aos-duration="2000"
               className="w-[25rem] mx-auto bg-[#17202e] hover:bg-gray-700 rounded-lg flex justify-center items-start p-2"
             >
               <div className="w-full" id="whyChooseUsImage">

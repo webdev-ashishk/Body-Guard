@@ -13,11 +13,11 @@ export default function Footer() {
         <span className="ml-2">
           Developed by
           <Link
-            href="https://growwithcs.com"
+            href="https://growwithok.com"
             target="_blank"
-            className="pl-2 font-bold"
+            className="pl-2 font-bold text-blue-500"
           >
-            growwithcs.com
+            growwithok.com
           </Link>
         </span>
       </p>

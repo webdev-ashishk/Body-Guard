@@ -3,7 +3,7 @@ import { ImWhatsapp } from 'react-icons/im';
 
 export default function ChatWithUs() {
   function handleOpenWhatsapp() {
-    const phoneNumber = '+918604600914';
+    const phoneNumber = '+917905101205';
     const url = `whatsapp://send?phone=${phoneNumber}&text=hi`;
 
     window.location.href = url;

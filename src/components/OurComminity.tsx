@@ -7,7 +7,10 @@ export default function OurCommunity() {
       <h1 className="text-2xl md:text-3x lg:text-4xl text-orange-600 font-extrabold text-center">
         Our community
       </h1>
-      <div className="w-11/12 md:w-10/12 lg:w-10/12 mx-auto flex justify-center lg:justify-between md:justify-between p-16 flex-wrap gap-4">
+      <div
+        className="w-11/12 md:w-10/12 lg:w-10/12 mx-auto flex justify-center lg:justify-between md:justify-between p-16 flex-wrap gap-4"
+        data-aos="fade-right"
+      >
         <Link
           href="https://www.instagram.com/royal_bouncer_group_gopalganj/"
           target="_blank"

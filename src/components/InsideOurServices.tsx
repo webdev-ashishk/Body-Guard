@@ -9,6 +9,7 @@ export default function InsideOurServices() {
           return (
             <div
               key={id}
+              data-aos="fade-up"
               className="shadow-inner w-[300px] h-[400px] rounded-lg bg-gray-700 hover:bg-gray-600 mb-3"
             >
               <Image

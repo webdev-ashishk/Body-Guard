@@ -29,12 +29,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="relative">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#1d232a]`}
       >
         <div
-          className="scrollToTop fixed right-[1rem] bottom-[4rem] md:bottom-[3rem] lg:bottom-[1.3rem]"
+          className="scrollToTop fixed right-[1rem] bottom-[4rem] md:bottom-[3rem] lg:bottom-[1.3rem] z-50"
           id="scrollToTop"
         >
           <ChatWithUs />
@@ -42,7 +42,7 @@ export default function RootLayout({
         <div className="w-full m-auto bg-[#cbd2a4]">
           <Offers />
         </div>
-        <div className="w-full m-auto sticky top-0  bg-[#2a323c] shadow-2xl">
+        <div className="w-full m-auto sticky top-0 z-50  bg-[#2a323c] shadow-2xl">
           <Header />
         </div>
         {children}

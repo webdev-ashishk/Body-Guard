@@ -15,6 +15,7 @@ export default function FAQS() {
         {_FAQS?.faqs.map((element) => (
           <li
             key={element.id}
+            data-aos="fade-up"
             className="text-1xl md:text-2xl bg-gray-700 my-4 rounded-2xl"
             onClick={() => toggleAnswers(element.id)}
           >

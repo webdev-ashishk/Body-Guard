@@ -10,6 +10,7 @@ export default function Achievements() {
         {successCount2.map((element) => (
           <div
             key={element.id}
+            data-aos="zoom-in-up"
             className="text-[] bg-[#384350] p-2 text-center rounded-lg m-2 hover:bg-slate-900"
           >
             <p className="text-5xl pb-3 pt-3">{element.icon}</p>

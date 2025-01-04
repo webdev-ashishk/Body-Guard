@@ -22,6 +22,7 @@ export default function HomePageTestimonials() {
           return (
             <div
               key={testimonial.id}
+              data-aos="fade-left"
               className="w-[400px] rounded-lg p-4 text-white m-3 bg-[#1d232a]"
             >
               <ul className="">

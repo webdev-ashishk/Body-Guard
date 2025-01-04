@@ -8,7 +8,12 @@ export default function Director() {
         Meet the Directors
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-full mx-auto md:w-[90%]">
-        <div id="firstDiv" className="inside-director">
+        <div
+          id="firstDiv"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          className="inside-director"
+        >
           <Image
             src="https://drive.usercontent.google.com/download?id=1NUopFAS13S6LYvv0I3RkC_8Ps0SLZ14T&export=view&authuser=0"
             alt="text"
@@ -17,7 +22,12 @@ export default function Director() {
             className="w-[60%] md:w-[80%] lg:w-full h-full pl-16 md:pl-0 lg:pl-0 rounded-lg"
           />
         </div>
-        <div id="secondDiv" className="">
+        <div
+          id="secondDiv"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          className=""
+        >
           <p className="text-[1.4rem] font-bold text-orange-600 pl-3">
             <strong> Dear valuable partners, Founder & Ceo</strong>
           </p>

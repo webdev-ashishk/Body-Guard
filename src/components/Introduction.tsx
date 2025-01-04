@@ -2,10 +2,10 @@ import Image from 'next/image';
 import HeroImage from '../../public/images/heroImage.png';
 export default function Introduction() {
   return (
-    <section className="bg-[#1d232a] py-16 px-6 text-white">
+    <section className="bg-[#1d232a] py-16 px-6 text-white ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         {/* Text Content */}
-        <div className="text-center lg:text-left">
+        <div className="text-center lg:text-left" data-aos="fade-right">
           <h1 className="text-4xl font-extrabold mb-6">
             Welcome to
             <span className="text-blue-500">Your Trusted Security Partner</span>
@@ -37,11 +37,11 @@ export default function Introduction() {
         </div>
 
         {/* Image */}
-        <div className="flex justify-center">
+        <div className="flex justify-center relative" data-aos="fade-left">
           <Image
             src={HeroImage} // Replace with your image path
             alt="Professional Security Team"
-            className="rounded-lg shadow-lg w-full max-w-md lg:max-w-full"
+            className="rounded-lg shadow-lg w-full max-w-md lg:max-w-full z-10"
             width={100}
             height={100}
             unoptimized={true}
