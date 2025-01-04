@@ -5,6 +5,7 @@ import MyCarousels from '@/components/MyCarousels';
 import OurCommunity from '@/components/OurComminity';
 import OurServices from '@/components/OurServices';
 import WhyChooseOus from '@/components/WhyChooseOus';
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import HomePageTestimonials from '../components/HomePageTestimonials';
